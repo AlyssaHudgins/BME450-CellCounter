@@ -6,7 +6,7 @@
 
 ## Project description
 
-  Dataset: 
+  Dataset: We want to include different types of cells (synthetic cells, rat astrocytes, human HT29 colon-cancer cells, etc) from the database URL to be able to classify a broad range of cells. (URL: https://bbbc.broadinstitute.org/image_sets)
 
   Goal: Create a low-cost solution to live and dead cell counting using deep learning
 
@@ -16,3 +16,7 @@ To implement this project, we will be using the Broad Institute's free cell imag
 
 The biggest issue with this project will be ensuring that the model can accurately define cell boundaries and recognize cells of different shapes and sizes. Historically, cell models have also had issues with counting the individual number of cells when cells are clustered together. Given these challenges, there are many opportunities to improve on the existing cell counting technology. By using the large data sets provided by the Broad Institute, we hope to improve the field and provide a less cost-prohibitive solution to cell counting.
   
+## Citations
+[1] https://logosbio.com/luna-fl/
+[2] https://chemometec.com/nucleocounters/nc-202/
+[3] https://bbbc.broadinstitute.org/image_sets
